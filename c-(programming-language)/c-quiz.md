@@ -275,3 +275,23 @@ main(){
 - [x] (\*player).name
 - [ ] \*player.name
 - [ ] player.\*name
+
+#### Q26. What will be the output of this program if user enters Clark Kent as input?
+
+Code:
+`
+int main()
+{
+    int c;
+    printf("What is your name?");
+    c = getchar();
+    printf("\nHello ");
+    putchar(c);
+    return 0;
+}
+`
+
+- [ ] Hello Clark Kent
+- [x] Hello C
+- [ ] Hello
+- [ ] Hello Clark
